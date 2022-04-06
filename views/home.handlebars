@@ -1,9 +1,11 @@
 <main>
 	<h1>Minor Web Design & Development</h1>
-	<form method="post" enctype="application/x-www-form-urlencoded" action="/">
+	<form method="post" enctype="application/x-www-form-urlencoded" action="/" id="formID">
 		<ul>
 			<li><label for="naam">Naam</label></li>
 			<li><input type="text" name="naam" required></li>
+			<li><label for="studentnummer">Studentnummer</label></li>
+			<li><input type="number" name="studentnummer" min="1" max="900000000" required></li>
 		</ul>
 		<fieldset>
 			<legend>CSS to the rescue</legend>
@@ -49,8 +51,8 @@
 				<li>
 					<label for="docenten">Docent</label>
 					<select name="docenten" required>
-						<option value="Sanne">Sanne</option>
-						<option value="Vasilis">Vasilis</option>
+						<option value="Sanne">Joost</option>
+						<option value="Vasilis">Koop</option>
 					</select>
 				</li>
 				<li>
@@ -80,14 +82,14 @@
 			</ul>
 		</fieldset>
 		<fieldset>
-			<legend>Browsing technlogies</legend>
+			<legend>Browser technlogies</legend>
 			<input type="text" name="vaknaam" id="vakken" value="Browsing technologies" required>
 			<ul>
 				<li>
 					<label for="docenten">Docent</label>
 					<select name="docenten" required>
-						<option value="Sanne">Sanne</option>
-						<option value="Vasilis">Vasilis</option>
+						<option value="Sanne">Robert</option>
+						<option value="Vasilis">Peter-Paul</option>
 					</select>
 				</li>
 				<li>
@@ -116,6 +118,9 @@
 				</li>
 			</ul>
 		</fieldset>
+		<div id="errorMessageDiv" class="hidden">
+			<p>Please, fill the form.</p>
+		</div>
 		<div class="button">
 			<input type="submit" value="Verstuur" id="button">
 		</div>

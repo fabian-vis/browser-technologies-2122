@@ -28,6 +28,10 @@ h1 {
 h2 {
     font-size: 1em;
     font-weight: 600;
+    text-align: center;
+}
+h3 {
+    font-size: 1em;
 }
 
 form {
@@ -50,17 +54,23 @@ ul {
 }
 
 ul li {
-    display:-webkit-flex;
+    /* display:-webkit-flex;
     display: flex;
     flex-direction: -webkit-column;
     flex-direction: column;
     align-items: -webkit-center;
     align-items: center;
+    text-align: center; */
+}
+label {
+    display: block;
+    margin: 0 auto;
     text-align: center;
+    text-align: -webkit-center;
 }
 
 input, select {
-    -webkit-appearance: none;
+    display: block;
     -moz-appearance: none;
     appearance: none;
     border: black 2px solid;
@@ -69,6 +79,8 @@ input, select {
     height: 30px;
     font-size: 0.7em;
     text-align: center;
+    text-align: -webkit-center;
+    margin: 0 auto;
 }
 
 #cijfers {
@@ -76,9 +88,13 @@ input, select {
 }
 
 .button {
+    /* display: -webkit-flex;
     display: flex;
     align-items: center;
+    align-items: -webkit-center;
     justify-content: center;
+    justify-content: -webkit-center; */
+    margin: 0 auto;
 }
 
 #button {
@@ -125,8 +141,26 @@ table {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    font-size: 0.8em
   }
   
   tr:nth-of-type(1), tr:nth-of-type(4), tr:nth-of-type(6), tr:nth-of-type(8)  {
     background-color: #8b8686;
   }
+
+.resultaat p {
+    margin: 0;
+}
+
+.resultaat p:last-of-type {
+    margin-bottom: 1em;
+}
+
+.hidden {
+    /* display: none; */
+}
+
+#errorMessageDiv {
+    margin: 0 auto;
+    text-align: center;
+}
