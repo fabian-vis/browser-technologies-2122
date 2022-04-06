@@ -83,17 +83,18 @@ input, select {
     margin: 0 auto;
 }
 
+input:focus, select:focus
+{
+    outline-offset: 2px;
+    outline-width: 2px;
+  outline-style: dotted;
+  outline-color: currentColor;
+}
 #cijfers {
     width: 50px;
 }
 
 .button {
-    /* display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    align-items: -webkit-center;
-    justify-content: center;
-    justify-content: -webkit-center; */
     margin: 0 auto;
 }
 
