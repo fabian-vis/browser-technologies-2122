@@ -3,6 +3,6 @@ form.noValidate = true;
 form.addEventListener('submit', function (event) { // listen for form submitting
     if (!event.target.checkValidity()) {
         event.preventDefault(); // dismiss the default functionality
-        document.getElementById('errorMessageDiv').classList.remove("hidden");
+        document.getElementById('message').classList.remove("hidden");
     }
 }, false);
