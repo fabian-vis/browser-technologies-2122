@@ -36,6 +36,10 @@ Welkom bij mijn project van de minor Webdesign and development. Het doel van dez
 
 Het testverslag is te vinden in de [wiki](https://github.com/fabian-vis/browser-technologies-2122/wiki "procesverslag")
 
+### Future features
+
+- Een duidelijkere validator
+
 ### Licence
 
 Dit project is voorzien van een MIT licence.

@@ -3,7 +3,7 @@
 }
 
 html {
-    background-color: #34A8E0;
+    background-color: #34A8E0; /* voor oude browsers */
     background: linear-gradient(10deg,  #E9590E 24%, rgba(0,0,0,0) 24%), linear-gradient(21deg, #3AAA34 46%, #34A8E0 46%);
     background-size: cover;
     font-family: "Open sans", Helvetica, Sans-Serif;
@@ -90,6 +90,11 @@ input:focus, select:focus
   outline-style: dotted;
   outline-color: currentColor;
 }
+
+.checker input:invalid, select:invalid {
+    border: red 2px solid;
+  }
+
 #cijfers {
     width: 50px;
 }
@@ -157,21 +162,13 @@ table {
     margin-bottom: 1em;
 }
 
-.hidden {
-    display: none;
-}
-
-#message {
-    margin-top: 1em;
-}
-
-#message p {
+#messageP {
     text-align: center;
     margin: 0 auto;
+    margin-top: 1em;
     padding: 0 1em;
     color: red;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
     border: none;
     width: fit-content;
 }
-
