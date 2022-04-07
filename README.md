@@ -16,7 +16,7 @@ Welkom bij mijn project van de minor Webdesign and development. Het doel van dez
 
 ### Proces
 
-Hier kan je mijn procesverslag bekijken [Procesverslag](https://github.com/fabian-vis/browser-technologies-2122/wiki "procesverslag")
+[Hier](https://github.com/fabian-vis/browser-technologies-2122/wiki "procesverslag") kan je mijn procesverslag bekijken
 
 ### Hoe installeer je dit project op je lokale machine?
 
@@ -25,6 +25,16 @@ Hier kan je mijn procesverslag bekijken [Procesverslag](https://github.com/fabia
 2. Cd naar de juiste project folder
 
 3. typ npm install in de terminal
+
+### Getest op
+
+- Safari IOS 3.2 - 4.3
+- Nieuwste Safari op IOS en MacOS
+- Google Chrome op macOS en Samsung telefoon (god weet hoe die telefoons heten)
+
+### Testverslag
+
+Het testverslag is te vinden in de [wiki](https://github.com/fabian-vis/browser-technologies-2122/wiki "procesverslag")
 
 ### Licence
 
